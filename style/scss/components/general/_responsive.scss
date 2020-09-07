@@ -1,0 +1,142 @@
+@include media-lg {
+  // header
+  .header {
+    background: url('../../images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__img {
+      padding-top: 4rem;
+      img {
+        width: 9vw;
+        height: 12vh;
+      }
+    }
+    &__text {
+      padding: 2rem 5rem 0;
+      &-subtitle {
+        margin: 0 9rem;
+      }
+    }
+
+    &__btns {
+      display: flex;
+      justify-content: center;
+      &-btn {
+        width: 20%;
+        margin: 1.5rem;
+      }
+    }
+  }
+
+  //  track
+
+  .track {
+    margin-top: 4rem;
+
+    &__text {
+      &-subtitle {
+        padding: 0 9rem;
+      }
+    }
+
+    &__snippet {
+      margin: 3rem 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+
+      img {
+        left: -2.2rem;
+        position: relative;
+        width: 46vw;
+        height: 50vh;
+        margin: 0;
+      }
+
+      &-list {
+        margin: 0 1.5rem;
+        text-align: left;
+        .snippet__item {
+          &-title {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  //  clipboard
+  .clipboard {
+    &__text {
+      &-subtitle {
+        padding: 0 16rem;
+      }
+    }
+
+    &__img {
+      margin-top: 5rem;
+      img {
+        width: 60vw;
+        height: 50vh;
+      }
+    }
+  }
+
+  // workflow
+  .workflow {
+    &__list {
+      grid-template-columns: repeat(3, 1fr);
+      margin: 3rem;
+    }
+    &__pictures {
+      grid-template-columns: repeat(5, 1fr);
+      margin: 4rem 3rem;
+    }
+  }
+
+  // store
+  .store {
+    &__text-subtitle {
+      padding: 0 16rem;
+    }
+    &__btns {
+      display: flex;
+      justify-content: center;
+      &-btn {
+        width: 20%;
+        margin: 1.5rem;
+      }
+    }
+  }
+
+  // footer
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+    &__logo {
+      margin: 1rem;
+      width: 6vw;
+      height: 17vh;
+    }
+    &__links {
+      grid-template-columns: repeat(3, 1fr);
+      &-item {
+        margin: 1.5rem;
+        text-align: left;
+        a {
+          font-size: 1.3rem;
+        }
+      }
+    }
+    &__icons {
+      margin: 5rem;
+      &-icon {
+        margin: 1.5rem;
+      }
+    }
+  }
+}

@@ -11,6 +11,14 @@ html {
 .container {
   margin: 0 2vw; }
 
+.attribution {
+  background: #f5f6f8;
+  text-align: center; }
+  .attribution a {
+    text-decoration: none;
+    padding: 1rem;
+    color: #4c545d; }
+
 .header {
   text-align: center;
   background: url("../../images/bg-header-mobile.png");
@@ -185,11 +193,92 @@ html {
     margin: 1rem 5rem 3rem; }
     .footer__icons-icon img {
       cursor: pointer; }
-  .footer .attribution {
-    margin: 0 1rem; }
-    .footer .attribution a {
-      text-decoration: none;
-      padding: 1rem;
-      color: #4c545d; }
+
+@media screen and (min-width: 1044px) {
+  .header {
+    background: url("../../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    .header__img {
+      padding-top: 4rem; }
+      .header__img img {
+        width: 9vw;
+        height: 12vh; }
+    .header__text {
+      padding: 2rem 5rem 0; }
+      .header__text-subtitle {
+        margin: 0 9rem; }
+    .header__btns {
+      display: flex;
+      justify-content: center; }
+      .header__btns-btn {
+        width: 20%;
+        margin: 1.5rem; }
+
+  .track {
+    margin-top: 4rem; }
+    .track__text-subtitle {
+      padding: 0 9rem; }
+    .track__snippet {
+      margin: 3rem 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center; }
+      .track__snippet img {
+        left: -2.2rem;
+        position: relative;
+        width: 46vw;
+        height: 50vh;
+        margin: 0; }
+      .track__snippet-list {
+        margin: 0 1.5rem;
+        text-align: left; }
+        .track__snippet-list .snippet__item-title {
+          font-size: 1.5rem; }
+
+  .clipboard__text-subtitle {
+    padding: 0 16rem; }
+  .clipboard__img {
+    margin-top: 5rem; }
+    .clipboard__img img {
+      width: 60vw;
+      height: 50vh; }
+
+  .workflow__list {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3rem; }
+  .workflow__pictures {
+    grid-template-columns: repeat(5, 1fr);
+    margin: 4rem 3rem; }
+
+  .store__text-subtitle {
+    padding: 0 16rem; }
+  .store__btns {
+    display: flex;
+    justify-content: center; }
+    .store__btns-btn {
+      width: 20%;
+      margin: 1.5rem; }
+
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; }
+    .footer__logo {
+      margin: 1rem;
+      width: 6vw;
+      height: 17vh; }
+    .footer__links {
+      grid-template-columns: repeat(3, 1fr); }
+      .footer__links-item {
+        margin: 1.5rem;
+        text-align: left; }
+        .footer__links-item a {
+          font-size: 1.3rem; }
+    .footer__icons {
+      margin: 5rem; }
+      .footer__icons-icon {
+        margin: 1.5rem; } }
 
 /*# sourceMappingURL=style.css.map */

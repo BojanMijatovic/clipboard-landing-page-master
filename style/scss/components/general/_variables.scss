@@ -3,3 +3,20 @@ $strong-green: hsl(171, 66%, 44%);
 $light-blue: hsl(233, 100%, 69%);
 $dark-blue: hsl(210, 10%, 33%);
 $grey-blue: hsl(201, 11%, 66%);
+
+//  media
+@mixin media-lg {
+  @media screen and(min-width: 1044px) {
+    @content;
+  }
+}
+
+.attribution {
+  background: #f5f6f8;
+  text-align: center;
+  a {
+    text-decoration: none;
+    padding: 1rem;
+    color: $dark-blue;
+  }
+}
