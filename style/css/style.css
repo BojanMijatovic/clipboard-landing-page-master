@@ -11,4 +11,185 @@ html {
 .container {
   margin: 0 2vw; }
 
+.header {
+  text-align: center;
+  background: url("../../images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 4rem; }
+  .header__img {
+    padding-top: 3rem; }
+    .header__img img {
+      width: 20vw;
+      height: 13vh; }
+  .header__text {
+    margin: 3rem 1.5rem 2rem; }
+    .header__text-title {
+      font-size: 3rem;
+      color: #4c545d;
+      font-weight: 600;
+      padding: 0 0.5rem; }
+    .header__text-subtitle {
+      padding-top: 1rem;
+      font-size: 1.5rem;
+      color: #9fabb2; }
+  .header__btns {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center; }
+    .header__btns-btn {
+      text-decoration: none;
+      margin: 1.5rem 0;
+      color: #fff;
+      background: #26baa4;
+      padding: 0.8rem;
+      border-radius: 1.5rem;
+      width: 80%;
+      font-size: 1.5rem; }
+      .header__btns-btn:last-child {
+        background: #6173ff; }
+
+.track {
+  padding: 2rem 0;
+  text-align: center; }
+  .track__text-title {
+    font-size: 2.6rem;
+    color: #4c545d;
+    margin-bottom: 1.5rem; }
+  .track__text-subtitle {
+    margin: 1.5rem 1.5rem 3rem;
+    font-size: 1.5rem;
+    color: #9fabb2;
+    line-height: 1.5; }
+  .track__snippet-img {
+    width: 90vw;
+    height: 40vh;
+    margin-bottom: 3rem; }
+  .track__snippet-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 2.5rem; }
+    .track__snippet-list .snippet__item {
+      margin: 2rem; }
+      .track__snippet-list .snippet__item-title {
+        color: #4c545d;
+        font-size: 2rem;
+        margin-bottom: 0.5rem; }
+      .track__snippet-list .snippet__item-info {
+        color: #9fabb2;
+        font-size: 1.5rem; }
+
+.clipboard {
+  text-align: center;
+  margin: 5rem 0; }
+  .clipboard__text-title {
+    font-size: 2.6rem;
+    color: #4c545d;
+    margin-bottom: 1.5rem; }
+  .clipboard__text-subtitle {
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: #9fabb2;
+    line-height: 1.5; }
+  .clipboard__img img {
+    width: 90vw;
+    height: 34vh; }
+
+.workflow {
+  text-align: center;
+  margin: 5rem 0; }
+  .workflow__text-title {
+    font-size: 2.6rem;
+    color: #4c545d;
+    margin-bottom: 1.5rem; }
+  .workflow__text-subtitle {
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: #9fabb2;
+    line-height: 1.5; }
+  .workflow__list {
+    list-style: none;
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    .workflow__list-item {
+      margin: 2rem; }
+      .workflow__list-item img {
+        margin: 1rem; }
+    .workflow__list-title {
+      color: #4c545d;
+      font-size: 1.8rem;
+      margin: 1rem; }
+    .workflow__list-info {
+      color: #9fabb2;
+      font-size: 1.5rem; }
+  .workflow__pictures {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center; }
+    .workflow__pictures-img {
+      margin: 2rem; }
+
+.store {
+  text-align: center;
+  margin: 2rem 0; }
+  .store__text-title {
+    font-size: 2.6rem;
+    color: #4c545d;
+    margin-bottom: 1.5rem; }
+  .store__text-subtitle {
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: #9fabb2;
+    line-height: 1.5; }
+  .store__btns {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center; }
+    .store__btns-btn {
+      text-decoration: none;
+      margin: 1.5rem 0;
+      color: #fff;
+      background: #26baa4;
+      padding: 0.8rem;
+      border-radius: 1.5rem;
+      width: 80%;
+      font-size: 1.5rem; }
+      .store__btns-btn:last-child {
+        background: #6173ff; }
+
+.footer {
+  background: #f5f6f8;
+  text-align: center; }
+  .footer__logo {
+    padding: 3rem 0;
+    width: 18vw;
+    height: 20vh; }
+  .footer__links {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 2rem; }
+    .footer__links-item {
+      margin: 1.3rem; }
+      .footer__links-item a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: #4c545d; }
+  .footer__icons {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem 5rem 3rem; }
+    .footer__icons-icon img {
+      cursor: pointer; }
+  .footer .attribution {
+    margin: 0 1rem; }
+    .footer .attribution a {
+      text-decoration: none;
+      padding: 1rem;
+      color: #4c545d; }
+
 /*# sourceMappingURL=style.css.map */

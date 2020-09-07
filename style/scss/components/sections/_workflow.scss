@@ -1,0 +1,52 @@
+.workflow {
+  text-align: center;
+  margin: 5rem 0;
+  &__text {
+    &-title {
+      font-size: 2.6rem;
+      color: $dark-blue;
+      margin-bottom: 1.5rem;
+    }
+    &-subtitle {
+      margin: 2rem;
+      font-size: 1.5rem;
+      color: $grey-blue;
+      line-height: 1.5;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    &-item {
+      margin: 2rem;
+      img {
+        margin: 1rem;
+      }
+    }
+
+    &-title {
+      color: $dark-blue;
+      font-size: 1.8rem;
+      margin: 1rem;
+    }
+    &-info {
+      color: $grey-blue;
+      font-size: 1.5rem;
+    }
+  }
+
+  &__pictures {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+
+    &-img {
+      margin: 2rem;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.clipboard {
+  text-align: center;
+  margin: 5rem 0;
+  &__text {
+    &-title {
+      font-size: 2.6rem;
+      color: $dark-blue;
+      margin-bottom: 1.5rem;
+    }
+    &-subtitle {
+      margin: 2rem;
+      font-size: 1.5rem;
+      color: $grey-blue;
+      line-height: 1.5;
+    }
+  }
+
+  &__img {
+    img {
+      width: 90vw;
+      height: 34vh;
+    }
+  }
+}

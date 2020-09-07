@@ -1,0 +1,46 @@
+.track {
+  padding: 2rem 0;
+  text-align: center;
+
+  &__text {
+    &-title {
+      font-size: 2.6rem;
+      color: $dark-blue;
+      margin-bottom: 1.5rem;
+    }
+    &-subtitle {
+      margin: 1.5rem 1.5rem 3rem;
+      font-size: 1.5rem;
+      color: $grey-blue;
+      line-height: 1.5;
+    }
+  }
+
+  &__snippet {
+    &-img {
+      width: 90vw;
+      height: 40vh;
+      margin-bottom: 3rem;
+    }
+
+    &-list {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-bottom: 2.5rem;
+
+      .snippet__item {
+        margin: 2rem;
+
+        &-title {
+          color: $dark-blue;
+          font-size: 2rem;
+          margin-bottom: 0.5rem;
+        }
+        &-info {
+          color: $grey-blue;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}

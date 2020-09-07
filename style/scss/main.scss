@@ -1,3 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
-@import './components/reset';
-@import './components/variables';
+@import './components/general/reset';
+@import './components/general/variables';
+@import './components/sections/header';
+@import './components/sections/track';
+@import './components/sections/clipboard';
+@import './components/sections/workflow';
+@import './components/sections/store';
+@import './components/sections/footer';

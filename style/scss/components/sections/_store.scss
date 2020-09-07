@@ -1,0 +1,38 @@
+.store {
+  text-align: center;
+  margin: 2rem 0;
+  &__text {
+    &-title {
+      font-size: 2.6rem;
+      color: $dark-blue;
+      margin-bottom: 1.5rem;
+    }
+    &-subtitle {
+      margin: 2rem;
+      font-size: 1.5rem;
+      color: $grey-blue;
+      line-height: 1.5;
+    }
+  }
+
+  &__btns {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+
+    &-btn {
+      text-decoration: none;
+      margin: 1.5rem 0;
+      color: #fff;
+      background: $strong-green;
+      padding: 0.8rem;
+      border-radius: 1.5rem;
+      width: 80%;
+      font-size: 1.5rem;
+
+      &:last-child {
+        background: $light-blue;
+      }
+    }
+  }
+}

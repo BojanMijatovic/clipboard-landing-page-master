@@ -1,0 +1,53 @@
+.header {
+  text-align: center;
+  background: url('../../images/bg-header-mobile.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 4rem;
+
+  &__img {
+    padding-top: 3rem;
+    img {
+      width: 20vw;
+      height: 13vh;
+    }
+  }
+
+  &__text {
+    margin: 3rem 1.5rem 2rem;
+
+    &-title {
+      font-size: 3rem;
+      color: $dark-blue;
+      font-weight: 600;
+      padding: 0 0.5rem;
+    }
+    &-subtitle {
+      padding-top: 1rem;
+      font-size: 1.5rem;
+      color: $grey-blue;
+    }
+  }
+
+  &__btns {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+
+    &-btn {
+      text-decoration: none;
+      margin: 1.5rem 0;
+      color: #fff;
+      background: $strong-green;
+      padding: 0.8rem;
+      border-radius: 1.5rem;
+      width: 80%;
+      font-size: 1.5rem;
+
+      &:last-child {
+        background: $light-blue;
+      }
+    }
+  }
+}
